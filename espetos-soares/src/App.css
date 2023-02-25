@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 0rem;
   text-align: center;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 .main{
@@ -86,4 +89,78 @@
   background: #EB4646;
   border: 1.5px solid #EB4646;
   border-radius: 8px;
+
+  color: #000000aa;
 }
+
+.container-vitrini {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+}
+
+.category-name-countainer {
+  display: flex;
+}
+
+.category-iten-countainer {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  overflow-x: scroll;
+}
+
+.card-iten {
+  margin: 0;
+  padding: 0;
+  width: 275px;
+  
+  list-style: none;
+}
+
+.card-img {
+  width: 275px;
+  height: 170px;
+  border-radius: 8px;
+}
+
+.category-type {
+  color: rgba(7, 7, 7, 0.667);
+  font-size: 2em;
+}
+
+.iten-name, .iten-price {
+  color: rgba(7, 7, 7, 0.667);
+  font-size: 1em;
+}
+
+.info-iten {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.iten-buy {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.iten-buy > button {
+  width: 70px;
+  height: 25px;
+
+  background: #EB4646;
+  border: 1.5px solid #EB4646;
+  border-radius: 8px;
+}
+
